@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Account Form</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <ul>
+                <li>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" name="name" id="fullName" placeholder="Enter your full name" required>
+                </li>
+                <li>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="date" id="dob" required>
+                </li>
+                <li>
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" cols="30" rows="2" maxlength="20"></textarea>
+                </li>
+                <li>
+                    <title>Nigerian States</title>
+</head>
+<body>
+    <label for="states">Select a State:</label>
+    <select id="states" name="states">
+        <option value="ab">Abia</option>
+        <option value="ad">Adamawa</option>
+        <option value="ak">Akwa Ibom</option>
+        <option value="an">Anambra</option>
+        <option value="ba">Bauchi</option>
+        <option value="by">Bayelsa</option>
+        <option value="be">Benue</option>
+        <option value="bo">Borno</option>
+        <option value="cr">Cross River</option>
+        <option value="de">Delta</option>
+        <option value="eb">Ebonyi</option>
+        <option value="ed">Edo</option>
+        <option value="ek">Ekiti</option>
+        <option value="en">Enugu</option>
+        <option value="go">Gombe</option>
+        <option value="im">Imo</option>
+        <option value="ji">Jigawa</option>
+        <option value="kd">Kaduna</option>
+        <option value="kn">Kano</option>
+        <option value="kt">Katsina</option>
+        <option value="ke">Kebbi</option>
+        <option value="ko">Kogi</option>
+        <option value="kw">Kwara</option>
+        <option value="la">Lagos</option>
+        <option value="na">Nasarawa</option>
+        <option value="ni">Niger</option>
+        <option value="og">Ogun</option>
+        <option value="on">Ondo</option>
+        <option value="os">Osun</option>
+        <option value="oy">Oyo</option>
+        <option value="pl">Plateau</option>
+        <option value="ri">Rivers</option>
+        <option value="so">Sokoto</option>
+        <option value="ta">Taraba</option>
+        <option value="yo">Yobe</option>
+        <option value="za">Zamfara</option>
+        <option value="fct">Abuja</option>
+                    </select>
+                </li>
+                <li>
+                    <h3>Marital Status</h3>
+                    <input type="radio" name="status" id="single">
+                    <label for="single">Single</label>
+
+                    <input type="radio" name="status" id="married">
+                    <label for="married">Married</label>
+
+                    <input type="radio" name="status" id="divorced">
+                    <label for="divorced">Divorced</label>
+
+                    <input type="radio" name="status" id="widow">
+                    <label for="widow">Widow</label>
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                </li>
+                <li>
+                    <h3>Gender</h3>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </li>
+                <li>
+                    <h3>Religion</h3>
+                    <label for="christian">Christian</label>
+                    <input type="checkbox" name="religion" id="christian">
+
+                    <label for="muslim">Muslim</label>
+                    <input type="checkbox" name="religion" id="muslim">
+                </li>
+                <form action="/submit" method="post">
+                    <!-- Your form fields go here -->
+                
+                    <!-- Submit button -->
+                    <input type="submit" value="Submit">
+                  </form>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
